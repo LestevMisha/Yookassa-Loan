@@ -80,6 +80,9 @@ if (!empty($_POST)) {
                         'type' => 'redirect',
                         'return_url' => 'https://www.example.com/return_url',
                     ),
+                    'payment_method_data' => array(
+                        'type' => 'bank_card',
+                    ),
                     'receipt' => array(
                         'items' => array(
                             array(
